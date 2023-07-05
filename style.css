@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main-header{
+    background-image: url(photo.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#head{
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    display: flex;
+	position: relative;
+	left: 6rem;
+	justify-content: center;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	color: white;
+	font-size: 24px;
+}
+.logo b{
+    color: red;
+}
+.navbar{
+    position: sticky;
+   display: flex;
+   align-items: center;
+   z-index: 999;
+}
+.navbar ul a {
+ position: sticky;  
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  
+}
+.navbar ul a li{
+    list-style: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    
+}
+.navbar ul a li:hover{
+    color: red;
+}
+.name{
+    width: 40%;
+    padding: 11rem;
+    position: relative;
+    top: 100px;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Playfair Display', serif;
+    z-index: 4;
+
+
+}
+.hello{
+    position: absolute;
+	z-index: 1;
+	top: 5rem;
+	color: white;
+	left: 11rem;
+	font-size: 8vh
+}
+.hello b{
+    color: #caff00;
+}
+.parag{
+    position: absolute;
+	z-index: 1;
+	color: white;
+	width: 129%;
+	margin-top: 4rem;
+	font-size: 3vh;
+    letter-spacing: 4px;
+}
+.go{
+    position: absolute;
+	z-index: 10;
+	margin-top: 8rem;
+	background-color: transparent;
+    border: solid red;
+    width: 150px;
+	transition: 0.3s ease-in-out;
+}
+.go a {
+    text-decoration: none;
+    list-style: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	list-style: none;
+	color: white;
+	left: 29px;
+	position: relative;
+	font-family: math;
+    
+
+}
+.go:hover{
+    background-color: black;
+}
+.profile{
+    background-color: red;
+    float: left;
+    width: 0;
+    
+}
+.pic{
+    height: 500px;
+    padding-left: 45rem;
+    position: relative;
+    bottom: 13rem;
+    left: 1rem;
+} 
+#About{
+    position: relative;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Playfair Display', serif;
+    height: 70vh;
+    background-color: white;
+    padding: 11rem;
+}
+.sentence{
+    z-index: 1;
+    position: relative;
+    top: 1rem;
+    width: 50%;
+}
+.container{
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Playfair Display', serif;
+    background-color: #f0f000;
+    width: 45%;
+    height: 35rem;
+    float: right;
+    position: relative;
+    bottom: 20rem;
+    border-radius: 80px 80px 80px 80px;
+    display: flex;
+   justify-content: center;
+   border: solid 10px black;
+    
+}
+.html{
+    position: relative;
+    left: 5rem;
+}
+.container h1{
+    position: relative;
+    top: 20px;
+    left: 118px;
+}
+.html h4{
+    position: relative;
+    top: 100px;
+    right: 8rem;
+    
+}
+.orange{
+    position: relative;
+    top: 100px;
+	height: 140px;
+	right: 10rem;
+}
+.css{
+    position: relative;
+    height: 110px;
+    top: 87px;
+    right: 10rem;
+}
+.backend h4{
+    position: relative;
+    top: 20rem;
+    right: 19rem;
+    text-transform: capitalize;
+}
+
+.java{
+    position: relative;
+    top: 21rem;
+    height: 120px;
+    right: 23rem;
+}
+#myProject{
+    height: 100vh;
+    
+}
+.top{
+    position: relative;
+    left: -100px;
+    padding: 5rem;
+    padding-left: 45rem;
+}
+.h1{
+    padding-left: 40px;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+.p{
+    position: relative;
+	left: -201px;
+}
+
+
+.top h1 span{
+    color: red;
+    
+
+}
+.soon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 25rem;
+    top: 20rem;
+} 
+#contact{
+    height:90vh;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.contact-box h1{
+    padding: 1rem;
+	padding-left: 5rem;
+}
+.contact-box{
+    height: 420px;
+	width: 25%;
+   background-color: yellow;
+   padding: 1rem;
+   margin-bottom: 40px;
+   margin-left: 25rem;
+   position: relative;
+   left: 26rem;
+   top: 3.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: inline-block;
+}
+.form{
+    position: relative;
+    left: 75px;
+    width: 207px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-bottom: 2px solid;
+    background-color: transparent;
+}
+.formSubmit{
+    position: relative;
+    left: 15px;
+    width: 91%;
+    top: 2rem;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.formSubmit:hover{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.forms{
+    position: relative;
+    left: 73px;
+	width: 216px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-bottom: 2px solid;
+    background-color: transparent;
+}
+.info-box .imahe{
+    width: 50px;
+    position: relative;
+    bottom: 5rem;
+    margin-left: 50px;
+    cursor: pointer;
+    left: 5rem;
+    bottom: 300px;
+}
+.info-box h1{
+    position: relative;
+    bottom: 25rem;
+    padding-left: 15rem;
+}
+.inquire{
+    padding-top: 7rem;
+    position: relative;
+    padding-left: 500px;
+}
+.inquire p{
+    width: 80%;
+}
+.inquire h1{
+    padding-left: 15rem;
+}
+.loc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 23rem;
+    margin-left: 10rem;
+    margin-top: 40px;
+}
+.loc .pin{
+    width: 30px;
+    position: relative;
+    bottom: 10px;
+    transition: linear;
+  
+}
+.loc h5{
+    padding-bottom: 1px;
+    padding-left: 2rem;
+    letter-spacing: 1px;
+}
+.info-box:hover{
+    translate: x(50);
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background-color: #051937;
+    width: 25%;
+    height: 20rem;
+    position: relative;
+    left: 6rem;
+    margin-right: 6rem;
+}
+.wsentence{
+    color: white;
+    padding: 4rem;
+    
+}
+.wsentence h2{
+    position: relative;
+    bottom: 1rem;
+
+}
+.wsentence p{
+    padding-top: 1rem;
+}
